@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/forms": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 111",
+    "not and_ff <= 110",
+    "not chrome <= 111",
+    "not edge <= 111",
+    "not firefox <= 111",
+    "not ios_saf <= 16.3",
+    "not opera <= 95",
+    "not safari <= 16.3",
+    "not samsung <= 20"
+  ]
+}
